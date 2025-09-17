@@ -1,0 +1,37 @@
+{
+  "run_mod": 2,
+  "mod_description":
+  {
+    "0": "get the weight for all weight process",
+    "1": "hive_test",
+    "2": "mortgage analysis model based on final input dataframe calculated from mod_0",
+    "3": "test rnn processs in cash flow shortage model"
+
+  },
+  "data": "..\\data\\",
+  "result": "..\\result\\",
+  "tier":
+  {
+    "tier_1": 0.8,
+    "tier_2": 0.2
+  },
+  "nominal": 100,
+  "proxy":
+  {
+    "monthly": ["vol_m","amt_avg_m","carea_avg_m","perm_amt_m"]
+  },
+  "end_date":"2023-04-01",
+  "address":
+  {
+    "level_1": ["江北西","莲花山","金汇湖","大道","地段","路","巷","镇","大亚湾","岛","岭","岸","坑","江北","村","岗","街"],
+    "level_2": ["斑璋湖","站","华侨城","街道办事处","街","岛","村"],
+    "count_nums_l3": 200,
+    "count_nums_l2": 100,
+    "count_nums_l1": 80
+  },
+  "time_span": 60,
+  "show_items": ["JKHTBH","HTDKJE","DKLL","INSTNAME_x","LOANCONTRCODE","DKQS","REMAINBAL","index_date","issue_date",
+  "mortgage_rate","DYWPGJZ","tolyrsutil","scaled_ds_hag","tier_hag","weight_hag","end_month","first_repay","DYWPGJZ",
+  "scaled_totLoanLeft","risk_res","tier_risk_level","spot_house_compreIndex_R","spot_house_compreIndex_A",
+    "spot_house_compreInde_afterhagAdju","FWZL","DKHKFS"]
+}

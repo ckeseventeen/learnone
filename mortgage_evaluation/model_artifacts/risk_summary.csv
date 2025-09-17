@@ -1,0 +1,3 @@
+risk_level,sample_size,avg_predicted_ltv,avg_loan_amount,overdue_rate
+中风险,465,0.7158,840676.34,0.2903
+高风险,335,0.8754,762965.05,0.2776

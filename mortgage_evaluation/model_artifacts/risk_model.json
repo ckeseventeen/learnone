@@ -1,0 +1,55 @@
+{
+  "intercept": 1053577.0404062509,
+  "coefficients": {
+    "loan_amount": -11268.835332790186,
+    "appraised_value": 424963.6596111068,
+    "monthly_income": -6233.736751208165,
+    "housing_fund_contribution": 8574.991939704947,
+    "employment_length_years": -1330.3583829257466,
+    "credit_score": 5796.2950187503775,
+    "delinquency_history": 1020.2507523916191,
+    "co_borrower": -404.247407611402,
+    "has_mortgage_insurance": 3574.029755436797,
+    "loan_term_months": -3406.521730222537,
+    "interest_rate": 2233.148393302096
+  },
+  "feature_means": {
+    "loan_amount": 804363.9344843745,
+    "appraised_value": 991415.6691562509,
+    "monthly_income": 20745.350781250007,
+    "housing_fund_contribution": 2066.8842187499995,
+    "employment_length_years": 15.55,
+    "credit_score": 720.9421875,
+    "delinquency_history": 0.3515625,
+    "co_borrower": 0.5203125,
+    "has_mortgage_insurance": 0.475,
+    "loan_term_months": 242.8390625,
+    "interest_rate": 3.5355323437500012
+  },
+  "feature_stds": {
+    "loan_amount": 284673.9006684065,
+    "appraised_value": 373369.1025460209,
+    "monthly_income": 8784.709985133992,
+    "housing_fund_contribution": 915.1357747940068,
+    "employment_length_years": 8.5473314549045,
+    "credit_score": 77.5625237805917,
+    "delinquency_history": 0.5888262125565997,
+    "co_borrower": 0.4995872319663008,
+    "has_mortgage_insurance": 0.49937460888595364,
+    "loan_term_months": 68.61336904438598,
+    "interest_rate": 0.48470905680702614
+  },
+  "feature_order": [
+    "loan_amount",
+    "appraised_value",
+    "monthly_income",
+    "housing_fund_contribution",
+    "employment_length_years",
+    "credit_score",
+    "delinquency_history",
+    "co_borrower",
+    "has_mortgage_insurance",
+    "loan_term_months",
+    "interest_rate"
+  ]
+}
